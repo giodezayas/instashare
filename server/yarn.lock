@@ -164,6 +164,11 @@
     "object-assign" "^4"
     "vary" "^1"
 
+"cryptr@^6.2.0":
+  "integrity" "sha512-TA4byAuorT8qooU9H8YJhBwnqD151i1rcauHfJ3Divg6HmukHB2AYMp0hmjv2873J2alr4t15QqC7zAnWFrtfQ=="
+  "resolved" "https://registry.npmjs.org/cryptr/-/cryptr-6.3.0.tgz"
+  "version" "6.3.0"
+
 "debug@^4":
   "integrity" "sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ=="
   "resolved" "https://registry.npmjs.org/debug/-/debug-4.3.4.tgz"
