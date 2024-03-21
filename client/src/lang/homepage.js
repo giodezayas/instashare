@@ -1,5 +1,5 @@
 export const HomepageMsg = {
-  msgHomepage: "Welcome to My File Sharing",
+  msgHomepage: "Welcome to InstaShare",
   msgDescription:
     "Share your files securely and easily with our file hosting service.",
   msgUploadNow: "Upload Now",
