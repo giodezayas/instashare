@@ -8,7 +8,7 @@ const UploadRoute = async (req, res) => {
       return res.status(400).send("No files were uploaded.");
     }
 
-    const uploadedFile = req.files.file; // Assuming the input field is named 'file'
+    const uploadedFile = req.files.file; 
 
     
     const uniqueFileName = Date.now() + "-" + uploadedFile.name;

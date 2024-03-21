@@ -2,7 +2,7 @@ const Cryptr = require("cryptr");
 const { Config } = require("../config");
 
 const generateEncryptedToken = (mongoId, minutes) => {
-  const cryptr = new Cryptr(Config.CRYPTR_TOKEN); 
+  const cryptr = new Cryptr(Config.CRYPTR_TOKEN);
   const currentTime = new Date().getTime();
   const expirationTime = new Date(
     currentTime + Config.FILE_LINK_EXPIRY_IN_MINUTES * 60 * 1000
